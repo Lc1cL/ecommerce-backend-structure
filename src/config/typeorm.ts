@@ -13,8 +13,8 @@ const  config = {
     username:process.env.DB_USERNAME,
     password:process.env.DB_PASSWORD,
     logging: false,
-    synchronize: true,
-    dropSchema: true,
+    synchronize: false,
+    dropSchema: false,
     entities: ['dist/**/*.entity{.ts,.js}'], 
     migrations: ['dist/migrations/*{.ts,.js}']
 }
